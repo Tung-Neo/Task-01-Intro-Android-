@@ -1,13 +1,15 @@
-package com.example.sayheloo;
+package com.example.sayhello;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class SayHello extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
+
     private Button myButton;
     private TextView showText;
     private EditText enterName;
